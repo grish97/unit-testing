@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "firstName": "John",
+    "lastName": "Doee",
+    "email": "john.doe@yopmail.com",
+    "birthday": "05/15/2000",
+    "phoneNumber": "374-11-22-33-44",
+    "companyIds": [
+      1,
+      2
+    ],
+    "positionId": 2,
+    "professionalLevelId": 3,
+    "age": 22,
+    "permissions": {
+      "users": [
+        "read",
+        "write"
+      ],
+      "companies": [
+        "read"
+      ],
+      "permissions": [
+        "grant"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "jane.doe@yopmail.com",
+    "birthday": "",
+    "positionId": 2,
+    "professionalLevelId": 3,
+    "phoneNumber": "374-11-22-33-44",
+    "age": 30,
+    "companyIds": [
+      1,
+      3
+    ],
+    "permissions": {
+      "users": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "companies": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "permissions": [
+        "grant",
+        "revoke"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "alice.smith@yopmail.com",
+    "birthday": "",
+    "positionId": 2,
+    "professionalLevelId": 3,
+    "phoneNumber": "374-11-22-33-44",
+    "age": 27,
+    "companyIds": [
+      2
+    ],
+    "permissions": {
+      "users": [
+        "read"
+      ],
+      "companies": [
+        "write"
+      ],
+      "permissions": [
+        "revoke"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "firstName": "Bob",
+    "lastName": "Johnson",
+    "email": "bob.johnson@yopmail.com",
+    "birthday": "",
+    "positionId": 2,
+    "professionalLevelId": 3,
+    "phoneNumber": "374-11-22-33-44",
+    "age": 33,
+    "companyIds": [
+      3
+    ],
+    "permissions": {
+      "users": [
+        "write",
+        "delete"
+      ],
+      "companies": [
+        "read"
+      ],
+      "permissions": [
+        "grant",
+        "revoke"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "firstName": "David",
+    "lastName": "Williams",
+    "email": "david.williams@yopmail.com",
+    "birthday": "",
+    "positionId": 2,
+    "professionalLevelId": 3,
+    "phoneNumber": "374-11-22-33-44",
+    "age": 40,
+    "companyIds": [
+      2,
+      3
+    ],
+    "permissions": {
+      "users": [
+        "read",
+        "write",
+        "delete"
+      ],
+      "companies": [
+        "read",
+        "write"
+      ],
+      "permissions": [
+        "grant",
+        "revoke"
+      ]
+    }
+  }
+]
